@@ -1,0 +1,137 @@
+<configs>
+	<append xpath="/recipes">
+
+		<!-- Recipes new items -->
+		<recipe name="Beans" count="1" >
+			<ingredient name="resourceYuccaFibers" count="25"/>
+		</recipe>
+
+		<recipe name="Peas" count="1" >
+			<ingredient name="resourceYuccaFibers" count="25"/>
+		</recipe>
+
+
+		<!-- Recipes dups for items in game -->
+		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="5"/>
+			<ingredient name="foodCropCorn" count="25"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="25"/>
+			<ingredient name="foodCropCorn" count="5"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="40"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropCorn" count="40"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+		
+		+
+		<!-- NEW Recipes for existing items in game -->
+		<recipe name="toolBeaker" count="1" craft_area="forge" material_based="true"> 
+			<ingredient name="unit_glass" count="20"/>
+			<ingredient name="unit_clay" count="10"/>
+			<ingredient name="unit_iron" count="5"/>
+		</recipe>
+		
+		<recipe name="drinkCanEmpty" count="1" craft_area="forge" material_based="true"> 
+			<ingredient name="unit_clay" count="2"/>
+			<ingredient name="unit_iron" count="5"/>
+		</recipe>		
+		
+		<recipe name="foodCanPeas" count="1" craft_area="campfire" material_based="true">
+			<ingredient name="Peas" count="3"/>
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="drinkCanRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkCanMegaCrush" count="1" craft_area="campfire" material_based="true">
+			<ingredient name="resourceCropGoldenrodPlant" count="2"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+			<ingredient name="resourceCropCoffeeBeans" count="2"/>
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+		</recipe>
+		
+		<recipe name="foodCanPasta" count="1" craft_area="campfire" material_based="true">
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="foodCornMeal" count="2"/>
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="drinkCanRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="foodCanPears" count="1" craft_area="campfire" material_based="true">
+			<ingredient name="foodCropYuccaFruit" count="5"/>
+			<ingredient name="drinkCanRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="foodCanChili" count="1" craft_area="campfire" material_based="true">
+			<ingredient name="Beans" count="3"/>
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="foodCanStock" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="drinkCanRiverWater" count="5"/>
+		</recipe>
+		
+		<recipe name="foodCanChicken" count="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodBoiledMeat" count="1"/>
+			<ingredient name="drinkCanRiverWater" count="5"/>
+		</recipe>
+		
+		<recipe name="foodCanBeef" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodCharredMeat" count="1"/>
+			<ingredient name="drinkCanEmpty" count="2"/>
+		</recipe>		
+		
+		<!-- New Recipes  -->
+		<recipe name="Blueberry Jam" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropBlueberries" count="10"/>
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="Berry Jam" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropBlueberries" count="5"/>
+			<ingredient name="resourceCropSnowberryPlant" count="5"/>
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCanChicken" count="1"/>
+			<ingredient name="Beans" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>		
+		
+		<recipe name="Hearty Meal" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="foodCanPears" count="1"/>
+			<ingredient name="foodRawMeat" count="3"/>
+			<ingredient name="Beans" count="1"/>
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+		</recipe>		
+		
+		<recipe name="Hearty Meal With Salad" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+			<ingredient name="Hearty Meal" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="3"/>
+			<ingredient name="foodCornMeal" count="1"/>
+			<ingredient name="foodCropBlueberries" count="2"/>
+			<ingredient name="resourceCropSnowberryPlant" count="2"/>
+		</recipe>
+
+	</append>
+</configs>
