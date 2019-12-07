@@ -1,6 +1,6 @@
 
 
-<h1 align="center">7D2D A17 Modlets</h1>
+<h1 align="center">7D2D Modlet</h1>
 
 <h2 align="center">Brads Base Items</h2>
 
