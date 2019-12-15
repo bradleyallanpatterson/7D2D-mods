@@ -3,35 +3,39 @@
 
 		<!-- Recipes new items -->
 		<recipe name="Beans" count="1" >
-			<ingredient name="resourceYuccaFibers" count="25"/>
+			<ingredient name="resourceYuccaFibers" count="5"/>
 		</recipe>
 
 		<recipe name="Peas" count="1" >
-			<ingredient name="resourceYuccaFibers" count="25"/>
+			<ingredient name="resourceYuccaFibers" count="5"/>
 		</recipe>
 
 
 		<!-- Recipes dups for items in game -->
-		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
+		<recipe name="ammoGasCan" count="1000" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="100"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="1000" craft_area="chemistryStation">
+			<ingredient name="foodCropCorn" count="100"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="100" craft_area="chemistryStation">
 			<ingredient name="foodCropPotato" count="5"/>
-			<ingredient name="foodCropCorn" count="25"/>
-			<ingredient name="drinkCanEmpty" count="1"/>
-		</recipe>
-		
-		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
-			<ingredient name="foodCropPotato" count="25"/>
 			<ingredient name="foodCropCorn" count="5"/>
-			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 		
-		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
-			<ingredient name="foodCropPotato" count="40"/>
-			<ingredient name="drinkCanEmpty" count="1"/>
+		<recipe name="ammoGasCan" count="100" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="5"/>
+			<ingredient name="foodCropCorn" count="5"/>
 		</recipe>
 		
-		<recipe name="ammoGasCan" count="1" craft_area="chemistryStation">
-			<ingredient name="foodCropCorn" count="40"/>
-			<ingredient name="drinkCanEmpty" count="1"/>
+		<recipe name="ammoGasCan" count="10" craft_area="chemistryStation">
+			<ingredient name="foodCropPotato" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoGasCan" count="10" craft_area="chemistryStation">
+			<ingredient name="foodCropCorn" count="1"/>
 		</recipe>
 		
 		+
@@ -50,7 +54,7 @@
 		<recipe name="foodCanPeas" count="1" craft_area="campfire" material_based="true">
 			<ingredient name="Peas" count="3"/>
 			<ingredient name="foodCropYuccaFruit" count="1"/>
-			<ingredient name="drinkCanRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 		
 		<recipe name="drinkCanMegaCrush" count="1" craft_area="campfire" material_based="true">
@@ -65,12 +69,12 @@
 			<ingredient name="foodCropYuccaFruit" count="1"/>
 			<ingredient name="foodCornMeal" count="2"/>
 			<ingredient name="foodEgg" count="1"/>
-			<ingredient name="drinkCanRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 		
 		<recipe name="foodCanPears" count="1" craft_area="campfire" material_based="true">
 			<ingredient name="foodCropYuccaFruit" count="5"/>
-			<ingredient name="drinkCanRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 		
 		<recipe name="foodCanChili" count="1" craft_area="campfire" material_based="true">
@@ -82,12 +86,12 @@
 
 		<recipe name="foodCanStock" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 			<ingredient name="foodRawMeat" count="1"/>
-			<ingredient name="drinkCanRiverWater" count="5"/>
+			<ingredient name="drinkCanEmpty" count="5"/>
 		</recipe>
 		
 		<recipe name="foodCanChicken" count="5" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 			<ingredient name="foodBoiledMeat" count="1"/>
-			<ingredient name="drinkCanRiverWater" count="5"/>
+			<ingredient name="drinkCanEmpty" count="5"/>
 		</recipe>
 		
 		<recipe name="foodCanBeef" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
@@ -95,18 +99,23 @@
 			<ingredient name="drinkCanEmpty" count="2"/>
 		</recipe>		
 		
-		<!-- New Recipes  -->
+		<!-- New Recipes Campfire -->
+		<recipe name="Baked Beans" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="Beans" count="2"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+
 		<recipe name="Blueberry Jam" count="1" craft_area="campfire" craft_tool="toolCookingPot">
 			<ingredient name="foodCropBlueberries" count="10"/>
 			<ingredient name="foodCropYuccaFruit" count="2"/>
-			<ingredient name="drinkJarRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 		
 		<recipe name="Berry Jam" count="1" craft_area="campfire" craft_tool="toolCookingPot">
 			<ingredient name="foodCropBlueberries" count="5"/>
 			<ingredient name="resourceCropSnowberryPlant" count="5"/>
 			<ingredient name="foodCropYuccaFruit" count="2"/>
-			<ingredient name="drinkJarRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>
 
 		<recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
@@ -114,7 +123,7 @@
 			<ingredient name="foodCanPeas" count="1"/>
 			<ingredient name="foodCanChicken" count="1"/>
 			<ingredient name="Beans" count="1"/>
-			<ingredient name="drinkJarRiverWater" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
 		</recipe>		
 		
 		<recipe name="Hearty Meal" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
@@ -132,6 +141,119 @@
 			<ingredient name="foodCropBlueberries" count="2"/>
 			<ingredient name="resourceCropSnowberryPlant" count="2"/>
 		</recipe>
+
+		<!-- New Recipes Chemistry Station -->
+		<recipe name="Vinegar" count="1" craft_area="chemistryStation">
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="resourcePotassiumNitratePowder" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropYuccaFruit" count="2"/>
+			<ingredient name="foodMoldyBread" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="resourcePotassiumNitratePowder" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropYuccaFruit" count="8"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAnimalFat" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceBone" count="1"/>
+			<ingredient name="Vinegar" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAnimalFat" count="1" craft_area="chemistryStation">
+			<ingredient name="foodRottingFlesh" count="1"/>
+			<ingredient name="Vinegar" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="2"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodMoldyBread" count="1" craft_area="chemistryStation">
+			<ingredient name="foodCropYuccaFruit" count="5"/>
+			<ingredient name="Vinegar" count="1"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="Oil Base Mixture" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="3"/>
+			<ingredient name="resourceCropCottonPlant" count="2"/>
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+		</recipe>
+
+		<recipe name="resourceOil" count="1" craft_area="chemistryStation">
+			<ingredient name="Oil Base Mixture" count="1"/>
+			<ingredient name="resourceCrushedSand" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAcid" count="1" craft_area="chemistryStation">
+			<ingredient name="drinkJarGrainAlcohol" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="Vinegar" count="2"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+		</recipe>
+
+		<recipe name="resourceScrapPolymers" count="1" craft_area="chemistryStation">
+			<ingredient name="resourcePaint" count="1"/>
+			<ingredient name="ammoGasCan" count="2"/>
+			<ingredient name="Vinegar" count="1"/>
+		</recipe>
+
+		<!-- New Recipes Workbench -->
+		<recipe name="smallEngine" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="30"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+
+		<recipe name="carBattery" count="1" craft_area="workbench">
+			<ingredient name="Bottle of Acid" count="2"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceScrapLead" count="3"/>
+		</recipe>
+
+		<recipe name="carBattery" count="1" craft_area="workbench">
+			<ingredient name="Bottle of Acid" count="2"/>
+			<ingredient name="armorFootballHelmet" count="1"/>
+			<ingredient name="resourceScrapLead" count="3"/>
+		</recipe>
+
+		<recipe name="carBattery" count="1" craft_area="workbench">
+			<ingredient name="Bottle of Acid" count="2"/>
+			<ingredient name="armorMiningHelmet" count="1"/>
+			<ingredient name="resourceScrapLead" count="3"/>
+		</recipe>
+
+		<recipe name="solarbank" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+		</recipe>
+
+		<recipe name="Photovoltaic Cell" count="1" craft_area="workbench">
+			<ingredient name="resourceBrokenGlass" count="2"/>
+			<ingredient name="resourceCrushedSand" count="250"/>
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+
+		<recipe name="solarCell" count="1" craft_area="workbench">
+			<ingredient name="Photovoltaic Cell" count="4"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceScrapIron" count="15"/>
+		</recipe>
+
 
 	</append>
 </configs>

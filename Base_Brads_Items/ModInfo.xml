@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="New Items" />
-		<Description value="adds new items into the game" />
+		<Description value="Adds new item recipes into the game" />
 		<Author value="Brad" />
-		<Version value="1" />
+		<Version value="v18.2" />
 		<Website value="http://7daystodie.com" />
 	</ModInfo>
 </xml>
