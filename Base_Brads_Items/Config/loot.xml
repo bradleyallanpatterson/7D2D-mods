@@ -3,7 +3,7 @@
 
 	<!-- Item occurance changes   -->
 	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='resourceFeather']/@count">5,12</set>
-
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']/@count">1,4</set>
 
     <!-- Stove -->
     <append xpath="/lootcontainers/lootcontainer[@id='5']">
@@ -13,20 +13,20 @@
 	
     <!-- Kitchen Sinks -->
     <append xpath="/lootcontainers/lootcontainer[@id='8']">
-        <item name="Beans" count="1" prob="0.1"/>
-        <item name="Peas" count="1" prob="0.1"/>
+        <item name="Beans" count="1,4" prob="0.1"/>
+        <item name="Peas" count="1,4" prob="0.1"/>
     </append>
 	
     <!-- Trash -->
     <append xpath="/lootcontainers/lootcontainer[@id='10']">
-        <item name="Empty Water Bottle" count="1" prob=".4"/>
+        <item name="Empty Water Bottle" count="1,3" prob=".4"/>
     </append>
 
     <!-- Cupboard -->
     <append xpath="/lootcontainers/lootcontainer[@id='17']">
         <item name="Beans" count="1,3" prob=".3"/>
-        <item name="Peas" count="1" prob="0.2"/>
-        <item name="Vinegar" count="1" prob="0.1"/>
+        <item name="Peas" count="1,2" prob="0.2"/>
+        <item name="Vinegar" count="1,5" prob="0.1"/>
         <item name="Blueberry Jam" count="1" prob="0.05"/>
         <item name="Berry Jam" count="1" prob="0.05"/>
     </append>
@@ -42,7 +42,7 @@
 	
 	<!--  Garage Box -->
     <append xpath="/lootcontainers/lootcontainer[@id='22']">
-        <item name="Empty Water Bottle" count="1" prob=".4"/>
+        <item name="Empty Water Bottle" count="1,4" prob=".4"/>
         <item name="Vinegar" count="1" prob=".2"/>
     </append>
 	
@@ -65,13 +65,13 @@
     <!-- Shopping Cart  -->
     <append xpath="/lootcontainers/lootcontainer[@id='54']">
         <item name="Empty Water Bottle" count="1" prob=".4"/>
-        <item name="Vinegar" count="1" prob=".2"/>
+        <item name="Vinegar" count="1,3" prob=".2"/>
     </append>
 	
     <!-- Shopping Basket  -->
     <append xpath="/lootcontainers/lootcontainer[@id='58']">
-        <item name="Empty Water Bottle" count="1" prob=".4"/>
-        <item name="Vinegar" count="1" prob=".2"/>
+        <item name="Empty Water Bottle" count="1,3" prob=".4"/>
+        <item name="Vinegar" count="1,2" prob=".2"/>
         <item name="Blueberry Jam" count="1" prob="0.05"/>
         <item name="Berry Jam" count="1" prob="0.05"/>
         <item name="Hearty Meal" count="1" prob="0.05"/>
@@ -80,8 +80,8 @@
 	
     <!-- Shamyway Box  -->
     <append xpath="/lootcontainers/lootcontainer[@id='59']">
-        <item name="Empty Water Bottle" count="1" prob=".4"/>
-        <item name="Vinegar" count="1" prob=".2"/>
+        <item name="Empty Water Bottle" count="1,3" prob=".4"/>
+        <item name="Vinegar" count="1,2" prob=".2"/>
         <item name="Blueberry Jam" count="1" prob="0.05"/>
         <item name="Berry Jam" count="1" prob="0.05"/>
         <item name="Hearty Meal" count="1" prob="0.05"/>

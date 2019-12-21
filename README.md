@@ -10,6 +10,10 @@ Adds to the game items and recipes. <br />
 
 ## Recipes 
 
+### General Loot chances changes
+![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Bird nest eggs increased to 1 of 4 <br />
+![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Bird nest feathers increased to 5 of 12 <br />
+
 ### General New Items and Recipes
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Beans <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Peas <br />
