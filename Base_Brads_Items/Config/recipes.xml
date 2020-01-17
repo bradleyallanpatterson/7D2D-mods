@@ -50,6 +50,10 @@
 			<ingredient name="unit_clay" count="2"/>
 			<ingredient name="unit_iron" count="5"/>
 		</recipe>		
+	
+		<recipe name="resourceSewingKit" count="1" material_based="true"> 
+			<ingredient name="resourceCloth" count="10"/>
+		</recipe>
 		
 		<recipe name="foodCanPeas" count="1" craft_area="campfire" material_based="true">
 			<ingredient name="Peas" count="3"/>
@@ -254,6 +258,130 @@
 			<ingredient name="resourceScrapIron" count="15"/>
 		</recipe>
 
+		<recipe name="resourceSpring" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="15"/>
+		</recipe>
+
+		<recipe name="resourceMechanicalParts" count="1" craft_area="workbench">
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceScrapLead" count="2"/>
+			<ingredient name="resourceScrapIron" count="5"/>
+		</recipe>
+		
+		<recipe name="resourceElectricParts" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapLead" count="25"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceScrapIron" count="15"/> 
+			<ingredient name="resourceForgedSteel" count="2"/> 
+		</recipe>		
+		
+		<recipe name="resourceElectronicParts" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapLead" count="50"/>
+			<ingredient name="resourceForgedIron" count="3"/>
+			<ingredient name="resourceScrapIron" count="5"/> 
+			<ingredient name="resourceCrushedSand" count="150"/> 
+		</recipe>		
+		
+		<recipe name="gunBowWoodenParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="200"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceForgedSteel" count="5"/> 
+		</recipe>	
+
+		<recipe name="gunPistolParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceScrapIron" count="200"/> 
+			<ingredient name="resourceForgedSteel" count="2"/> 
+		</recipe>
+
+		<recipe name="gunDoubleBarrelShotgunParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="2"/> 
+		</recipe>		
+
+		<recipe name="meleeToolAllSteelParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceScrapIron" count="10"/> 
+			<ingredient name="resourceForgedSteel" count="25"/> 
+		</recipe>	
+
+		<recipe name="gunJunkTurretParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="5"/>
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="5"/> 
+		</recipe>	
+
+		<recipe name="gunAk47Parts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="5"/> 
+		</recipe>	
+
+		<recipe name="gunHuntingRifleParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="2"/> 
+		</recipe>
+
+		<recipe name="gunRocketLauncherParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="2"/> 
+		</recipe>	
+		
+		<recipe name="meleeToolKnifeMacheteParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="5"/> 
+		</recipe>	
+
+		<recipe name="meleeThrownSpearSteelParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="5"/> 
+		</recipe>
+		
+		<recipe name="armorSteelSetParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceScrapIron" count="50"/> 
+			<ingredient name="resourceMetalPipe" count="5"/> 
+		</recipe>		
+
+		<recipe name="meleeToolChainsawParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="2"/>
+			<ingredient name="resourceForgedIron" count="50"/>
+			<ingredient name="resourceScrapIron" count="25"/> 
+			<ingredient name="resourceMetalPipe" count="1"/> 
+		</recipe>
+	
+		<recipe name="meleeClubBaseballBatParts" count="1" craft_area="workbench">
+			<ingredient name="resourceWood" count="60"/>
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceScrapIron" count="3"/> 
+		</recipe>
+
+		<recipe name="meleeToolSledgehammerSteelParts" count="1" craft_area="workbench">
+			<ingredient name="meleeClubBaseballBatParts" count="1"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>	
+
+		<recipe name="armorMilitarySetParts" count="1" craft_area="workbench">
+			<ingredient name="resourceSewingKit" count="5"/>
+			<ingredient name="resourceCloth" count="20"/>
+			<ingredient name="resourceMilitaryFiber" count="20"/> 
+		</recipe>
+		
 
 	</append>
 </configs>
