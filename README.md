@@ -14,6 +14,8 @@ Adds to the game items and recipes. <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Bird nest eggs increased to 1 of 4 <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Bird nest feathers increased to 5 of 12 <br />
 
+![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Fixed Empty Water Bottles when scraping <br />
+
 ### General New Items and Recipes
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Beans <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Peas <br />
@@ -37,6 +39,8 @@ Adds to the game items and recipes. <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Can of Chicken <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Can of Beef <br />
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Meat Stew <br />
+
+![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Numerous Parts Recipes <br />
 
 ### Food New Items and Recipes
 ![#903fe3](https://placehold.it/15/903fe3/000000?text=+) Blueberry Jam <br />
